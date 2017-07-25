@@ -103,12 +103,11 @@ async function getCamoJson() {
             'User-Agent': 'YOUR-GITHUB-USERNAME'
         }
     };
-    return await request.get(options);
+    var body = await request.get(options);
+    console.log(body);
 }
 
-var body = await getCamoJson(); 
-
-
+getCamoJson();
 
 // complex async/await example
 "use strict";
