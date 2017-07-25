@@ -1,3 +1,4 @@
+// source: http://stackabuse.com/node-js-async-await-in-es7/
 // simple exmaple with promise
 var request = require('request-promise');
 
