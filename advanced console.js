@@ -7,7 +7,7 @@ console.log(foo.toUpperCase());
 
 
 
-// console.count - no need self-defined counters
+// console.count - life without manual defined counters
 for (var i = 0; i < 100; i++) {
  var num = Math.random() * 100;
 
@@ -36,5 +36,54 @@ for (var i = 0; i < 100; i++) {
 
 // substitution
 console.log('Hello, my name is %s, age - %d, color - %s', 'John', '34', 'white');
-console.log('This is my %coutput!', "color: blue, font-size: 14px");
+console.log('This is my %coutput!', "color: blue; font-size: 14px");
+
+
+
+
+// timing data
+console.time('create objects');
+
+var array = [];
+for (var i = 0; i < 1000000; i++) {
+   array.push({index: i});
+}
+
+console.timeEnd('create objects');
+
+
+
+
+// log levels
+console.log('this is a log!');
+console.warn('this is a warning!');
+console.error('this is an error!');
+console.info('this is an info!');
+console.debug('this is an debug!');
+
+
+
+
+// prettyprinting
+function Character(name, power){
+   this.name = name;
+   this.power = power;
+}
+
+var buffy = new Character('buffy', "slayer");
+var willow = new Character("willow", "witch");
+var spike = new Character("spike", "wampire");
+
+var chars = [buffy, willow, spike];
+console.log(chars);
+
+var charsByName = {
+   buffy: buffy,
+   willow: willow,
+   spike: spike
+};
+console.log(charsByName);
+
+
+
 
