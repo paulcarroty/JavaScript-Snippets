@@ -17,6 +17,8 @@ request.get(options).then(function(body) {
 // Camo has 1,000,000 stars!  
 
 
+
+
 // extended example with promise - print the latest issue in many projects
 
 "use strict";
@@ -75,6 +77,8 @@ reqs.then(function() {
 // test: robust handling of env for npm-test-install 
 
 
+
+
 // PROMISES
 var request = require('request-promise');
 
@@ -93,9 +97,8 @@ main();
 
 
 
+
 // simple async/await example
-
-
 async function getCamoJson() {  
     var options = {
         url: 'https://api.github.com/repos/scottwrobinson/camo',
@@ -108,6 +111,9 @@ async function getCamoJson() {
 }
 
 getCamoJson();
+
+
+
 
 // complex async/await example
 "use strict";
@@ -156,8 +162,8 @@ main();
 
 
 
-// parallell requests with map()
 
+// parallell requests with map()
 async function main() {  
     let reqs = repos.map(async function(r) {
         let options = { url: 'https://api.github.com/repos/' + r, headers: headers };
@@ -179,6 +185,8 @@ async function main() {
 }
 
 main();  
+
+
 
 
 // catching errors
