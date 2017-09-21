@@ -21,7 +21,7 @@ The useful pieces of code - from zero to max complecity
 ### Stackoverflow
 *  [How do I return the response from an asynchronous call?](https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call)
 *  [Using Objects in For Of Loops](https://stackoverflow.com/questions/29885220/using-objects-in-for-of-loops)
-*  []()
+*  [Write objects into file with Node.js](https://stackoverflow.com/questions/21976567/write-objects-into-file-with-node-js)
 *  []()
 *  []()
 *  []()
