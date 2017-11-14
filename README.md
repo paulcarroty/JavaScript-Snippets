@@ -25,3 +25,7 @@ The useful pieces of code - from zero to max complecity
 *  [Returning a value from callback function in Node.js](https://stackoverflow.com/questions/23339907/returning-a-value-from-callback-function-in-node-js)
 *  [Nodejs multiple http requests in loop](https://stackoverflow.com/questions/19911429/nodejs-multiple-http-requests-in-loop)
 *  []()
+
+
+### Others
+*   [Node.js and Firefox Headless](https://mykzilla.org/2017/08/30/headless-firefox-in-node-js-with-selenium-webdriver/)
