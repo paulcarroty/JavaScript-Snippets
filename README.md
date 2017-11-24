@@ -24,7 +24,7 @@ The useful pieces of code - from zero to max complecity
 *  [Write objects into file with Node.js](https://stackoverflow.com/questions/21976567/write-objects-into-file-with-node-js)
 *  [Returning a value from callback function in Node.js](https://stackoverflow.com/questions/23339907/returning-a-value-from-callback-function-in-node-js)
 *  [Nodejs multiple http requests in loop](https://stackoverflow.com/questions/19911429/nodejs-multiple-http-requests-in-loop)
-*  []()
+*  [[Serial vs Parallel]Replace Promise code with Async code plus For loop with map() in JavaScript](https://stackoverflow.com/questions/46900640/replace-promise-code-with-async-code-plus-for-loop-with-map-in-javascript#)
 
 
 ### Others
