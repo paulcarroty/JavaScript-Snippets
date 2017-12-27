@@ -12,6 +12,8 @@ The useful pieces of code - from zero to max complecity
 *  [Async](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
 *  [Working with Arrays](https://developer.mozilla.org/en-US/docs/Talk:JavaScript/Guide/Obsolete_Pages/Working_with_Arrays)
 *  [Working with Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+*  [Function.prototype.bind()
+](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
 
 
 *  [Array.prototype.some()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
