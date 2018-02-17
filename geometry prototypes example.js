@@ -1,4 +1,4 @@
-// Result - all objects has .desc property from figure.
+// Result - all objects will get the .desc property from figure.
 // Docs - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype
 
 
